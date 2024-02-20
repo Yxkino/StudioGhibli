@@ -3,18 +3,41 @@
 }
 
 #NavBar{
-    font-size: x-small;
+    font-size: medium;
     background-color: bisque;
     display: flex;
     flex-direction: row;
-    
+    margin-left: -8px;
+    height: 50px;
+    margin-top: -8px;
+}
+
+.IntNavBar{
+    padding-top: 14px;
+}
+
+#Logo{
+    padding-left: 50px;
 }
 
 #Menu{
-    margin-left: 250px;
-    width: 300px;
+    margin-left: 600px;
+    width: 600px;
     background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.menu{
+    background-color: rgb(63, 224, 22);
+    cursor: pointer;
+    height: max-content;
+
+    transition: color 0.3s;
+}
+
+.menu:hover{
+    
+    color: red;
 }
